@@ -16,5 +16,19 @@ This  is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is inte
 $ npm install @uv-tech/util-device
 ```
 
+
+### Usage
+
+### Device Util Methods
+* isMobileDevice
+
+
+### Array Util Methods
+* areArraysEqual
+* getTotal
+* sort
+* getObjFromArray
+
+
 # License
 MIT
