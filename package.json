@@ -1,0 +1,22 @@
+{
+  "name": "@uv-tech/util",
+  "version": "0.0.2",
+  "description": "It is a utility package intended to be used for doing common utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "utility"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvi1422/npm-uv-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuvi1422/npm-uv-util/issues"
+  },
+  "homepage": "https://github.com/yuvi1422/npm-uv-util#readme"
+}
