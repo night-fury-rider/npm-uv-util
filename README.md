@@ -7,7 +7,7 @@ This  is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is inte
 #### In browser
 
 ```
-<script src="@uv-tech/util/uv-device.js"></script>
+<script src="@uv-tech/util/modules/uv-device.js"></script>
 ```
 
 #### Using NPM
