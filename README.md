@@ -17,7 +17,7 @@ $ npm install @uv-tech/util-device
 ```
 
 
-### Usage
+# Usage
 
 ### Device Util Methods
 * isMobileDevice
