@@ -1,6 +1,6 @@
 {
   "name": "@uv-tech/util",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "It is a utility package intended to be used for doing common utilities.",
   "main": "index.js",
   "scripts": {
