@@ -29,6 +29,12 @@ $ npm install @uv-tech/util-device
 * sort
 * getObjFromArray
 
+### String Util Methods
+* getRandomString
+* isAlphanumeric
+* isNumber
+* isDate
+* getAgeFromDate
 
 # License
 MIT
