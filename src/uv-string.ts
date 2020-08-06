@@ -12,7 +12,7 @@ var uvString = (function () {
    * @param {string} str - String to be checked for alphanumeric
    * @returns {boolean} true if alphanumeric else false.
    */
-  function isAlphanumeric(str) {
+  function isAlphanumeric(str: string) {
     return /^[a-z0-9]+$/i.test(str);
   }
 
@@ -21,7 +21,7 @@ var uvString = (function () {
    * @param {string} str - String to be checked for number
    * @returns {boolean} true if is numeric string else false.
    */
-  function isNumber(str) {
+  function isNumber(str: any) {
     return !isNaN(str);
   }
 
@@ -30,7 +30,7 @@ var uvString = (function () {
    * @param {string} str - String to be checked for date
    * @returns {boolean} true if is date string else false.
    */
-  function isDate(str) {
+  function isDate(str: string) {
     return !isNaN(new Date(str).getDate())
   }
 
@@ -39,7 +39,7 @@ var uvString = (function () {
    * @param {string} str - String to be checked for number
    * @returns {boolean} true if is numeric string else false.
    */
-  function getAgeFromDate(dateString) {
+  function getAgeFromDate(dateString: string) {
     if(!isDate(dateString)) {
       return null;
     }

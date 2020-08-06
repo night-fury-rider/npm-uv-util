@@ -6,7 +6,7 @@ var uvArray = (function () {
    * @returns true if arrays are equal otherwise return false.
    * Note: This method is not recommended if array is large
    */
-  function areArraysEqual(arr1, arr2) {
+  function areArraysEqual(arr1: [], arr2: []) {
     return JSON.stringify(arr1) === JSON.stringify(arr2);
   }
 
@@ -15,7 +15,7 @@ var uvArray = (function () {
    * @param {array} items - Array of object whose sum need to be calculated.
    * @param {string} calculationProperty - Name of the property whose value need to be calcuated to get total.
    */
-  function getTotal(items, calculationProperty) {
+  function getTotal(items: [], calculationProperty: string) {
     if(Array.isArray(items) && calculationProperty) {
       return items.reduce(function(total, item) {
           return total + item[calculationProperty];
@@ -30,7 +30,7 @@ var uvArray = (function () {
    * @param {string} sortProperty - Property on which array will be sorted.
    * @param {string} order - 'ascending' if specified else 'descending'
    */
-  function sort(arr, sortProperty, order) {
+  function sort(arr: [], sortProperty: string, order: string) {
     if(!arr || !sortProperty || !sortProperty) {
       return null;
     }
@@ -48,7 +48,7 @@ var uvArray = (function () {
    * @param {string} attrValue - Value of the attribute.
    * @returns {object} Matched object if any otherwise 'undefined'
    */
-  function getObjFromArray(myArray, attrName, attrValue) {
+  function getObjFromArray(myArray: [], attrName: string, attrValue: string) {
     if(!myArray || !attrName || !attrValue) {
       return null;
     }

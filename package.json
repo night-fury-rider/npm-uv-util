@@ -2,12 +2,14 @@
   "name": "@uv-tech/util",
   "version": "0.0.4",
   "description": "It is a utility package intended to be used for doing common utilities.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "type": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
   "keywords": [
     "javascript",
+    "typescript",
     "utility"
   ],
   "license": "MIT",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yuvi1422/npm-uv-util/issues"
   },
-  "homepage": "https://github.com/yuvi1422/npm-uv-util#readme"
+  "homepage": "https://github.com/yuvi1422/npm-uv-util#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
 }

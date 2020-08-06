@@ -7,27 +7,35 @@ This  is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is inte
 #### In browser
 
 ```
-<script src="@uv-tech/util/modules/uv-device.js"></script>
+<script src="@uv-tech/util/uv-array.js"></script>
+<script src="@uv-tech/util/uv-device.js"></script>
+<script src="@uv-tech/util/uv-string.js"></script>
 ```
 
 #### Using NPM
 
 ```
-$ npm install @uv-tech/util-device
+$ npm i @uv-tech/util
 ```
 
 
 # Usage
 
-### Device Util Methods
-* isMobileDevice
-
+### Import
+```
+import uvArray from '@uv-tech/util//uv-array';
+import uvDevice from '@uv-tech/util//uv-device';
+import uvString from '@uv-tech/util//uv-string';
+```
 
 ### Array Util Methods
 * areArraysEqual
 * getTotal
 * sort
 * getObjFromArray
+
+### Device Util Methods
+* isMobileDevice
 
 ### String Util Methods
 * getRandomString
