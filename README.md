@@ -9,6 +9,7 @@ This  is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is inte
 ```
 <script src="@uv-tech/util/uv-array.js"></script>
 <script src="@uv-tech/util/uv-device.js"></script>
+<script src="@uv-tech/util/uv-object.js"></script>
 <script src="@uv-tech/util/uv-string.js"></script>
 ```
 
@@ -25,6 +26,7 @@ $ npm i @uv-tech/util
 ```
 import uvArray from '@uv-tech/util/uv-array';
 import uvDevice from '@uv-tech/util/uv-device';
+import uvDevice from '@uv-tech/util/uv-object';
 import uvString from '@uv-tech/util/uv-string';
 ```
 
