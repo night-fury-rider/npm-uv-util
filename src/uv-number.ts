@@ -7,8 +7,24 @@ var uvNumber = (function () {
     return ((n > 1) ? n * getFactorial(n-1) : n);
   }
 
+
+  /**
+   * @description Function to change format of passed number
+   * @returns number - Returns converted string
+   */
+  const changeFormat =  (n: number, locale: string, currency: string): string => {
+    locale = locale ? locale : 'en-IN';
+    currency = currency ? currency: 'INR';
+
+    return new Intl.NumberFormat(locale, {
+      currency: currency
+    }).format(n);
+  }
+  
+
   return {
-    getFactorial: getFactorial
+    getFactorial: getFactorial,
+    changeFormat: changeFormat
   }
 })();
 

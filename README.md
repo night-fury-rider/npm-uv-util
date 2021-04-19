@@ -53,6 +53,7 @@ import uvNumber from '@uv-tech/util/lib/uv-number';
 
 ### Number Methods
 * getFactorial
+* changeFormat
 
 # License
 MIT
