@@ -40,6 +40,7 @@ import uvNumber from '@uv-tech/util/lib/uv-number';
 
 ### Device Util Methods
 * isMobileDevice
+* scrollSmoothly
 
 ### Object Util Methods
 * getObjectByPath
