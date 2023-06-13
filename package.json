@@ -1,6 +1,6 @@
 {
   "name": "@uv-tech/util",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "It is a utility package intended to be used for doing common utilities..",
   "main": "lib/index.js",
   "type": "lib",
@@ -15,12 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuvi1422/npm-uv-util.git"
+    "url": "git+https://github.com/night-fury-rider/npm-uv-util.git"
   },
   "bugs": {
-    "url": "https://github.com/yuvi1422/npm-uv-util/issues"
+    "url": "https://github.com/night-fury-rider/npm-uv-util/issues"
   },
-  "homepage": "https://github.com/yuvi1422/npm-uv-util#readme",
+  "homepage": "https://github.com/night-fury-rider/npm-uv-util#readme",
   "devDependencies": {
     "typescript": "^3.9.7"
   }
