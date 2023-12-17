@@ -1,6 +1,6 @@
 # @uv-tech/util
 
-This  is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is intended to provide the utility functions which we need in JavaScript Development.
+This is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is intended to provide the utility functions which we need in JavaScript Development.
 
 # Installation
 
@@ -8,10 +8,10 @@ This  is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is inte
 $ npm i @uv-tech/util
 ```
 
-
 # Usage
 
 ### Import
+
 ```
 import uvArray from '@uv-tech/util/lib/uv-array';
 import uvDevice from '@uv-tech/util/lib/uv-device';
@@ -21,28 +21,35 @@ import uvNumber from '@uv-tech/util/lib/uv-number';
 ```
 
 ### Array Util Methods
-* areArraysEqual
-* getTotal
-* sort
-* getObjFromArray
+
+- areArraysEqual
+- getObjFromArray
+- getTotal
+- sort
 
 ### Device Util Methods
-* isMobileDevice
-* scrollSmoothly
+
+- isMobileDevice
+- scrollSmoothly
 
 ### Object Util Methods
-* getObjectByPath
+
+- getObjectByPath
 
 ### String Util Methods
-* getRandomString
-* isAlphanumeric
-* isNumber
-* isDate
-* getAgeFromDate
+
+- getAgeFromDate
+- getRandomString
+- isAlphanumeric
+- isDate
+- isNumber
 
 ### Number Methods
-* getFactorial
-* changeCurrencyFormat
+
+- changeCurrencyFormat
+- formatContactNumber
+- getFactorial
 
 # License
+
 MIT

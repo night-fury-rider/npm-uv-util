@@ -1,7 +1,6 @@
-import { uvDevice } from 'module/uv-device';
-import { uvArray } from 'module/uv-array';
-import { uvString } from 'module/uv-string';
+import { uvArray } from "module/uv-array";
+import { uvDevice } from "module/uv-device";
+import { uvNumber } from "module/uv-number";
+import { uvString } from "module/uv-string";
 
-export const uvDevice;
-export const uvArray;
-export const uvString;
+export { uvArray, uvDevice, uvNumber, uvString };
