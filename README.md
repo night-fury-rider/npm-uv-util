@@ -4,18 +4,6 @@ This  is the source code of npm package `@uv-tech/util`. `@uv-tech/util` is inte
 
 # Installation
 
-#### In browser
-
-```
-<script src="@uv-tech/util/lib/uv-array.js"></script>
-<script src="@uv-tech/util/lib/uv-device.js"></script>
-<script src="@uv-tech/util/lib/uv-object.js"></script>
-<script src="@uv-tech/util/lib/uv-string.js"></script>
-<script src="@uv-tech/util/lib/uv-number.js"></script>
-```
-
-#### Using NPM
-
 ```
 $ npm i @uv-tech/util
 ```
